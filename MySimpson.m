@@ -1,4 +1,4 @@
-function [x] = MySimpson(u,a,b,N) 
+function [x] = MySimpson(u,a,b,N)
     h = (b - a) / N;
     y(1) = a;
     for i = 1:N
