@@ -1,5 +1,5 @@
 # simpson_rule
-Investigating Simpson's rule to computationally approximate definite integrals.  
+Investigating Simpson's rule to computationally approximate definite integrals. 
 
 I created a function that solved a basic definite integral; this is seen in MySimpson.m. Then, I wanted to proceed with some testing. 
  
