@@ -1,6 +1,6 @@
 function [x] = MySimpson(u,a,b,N)
     h = (b - a) / N; 
-    y(1) = a; 
+    y(1) = a;
     for i = 1:N
         y(i + 1) = a + i * h; 
     end
