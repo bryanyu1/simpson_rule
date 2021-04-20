@@ -1,5 +1,5 @@
 % Note that N = 6 gaurantees that MySimpson will have the desired precision of 10^(-5) 
-
+ 
 function [x] = SolveInt(a)
     f = @(x) (1 / sqrt(2 * pi)) * exp((-x.^2) / 2);
     p(1) = 0.5;
