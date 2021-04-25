@@ -3,7 +3,7 @@ function [x] = MySimpson(u,a,b,N)
     y(1) = a; 
     for i = 1:N 
         y(i + 1) = a + i * h;
-    end
+    end 
     sum_1 = 0;
     sum_2 = 0; 
     for i = 1:N
