@@ -6,7 +6,7 @@ function [x] = SolveInt(a)
     N = 6;
     k = 2;
     tol = 1;
-    while tol > 10^(-5) 
+    while tol > 10^(-5)
         y = MySimpson(f,0,p(k - 1),N);
         p(k) = p(k - 1) - ((y - a) / f(p(k - 1))); 
         tol = abs(p(k) - p(k - 1));
