@@ -6,7 +6,7 @@ function [x] = MySimpson(u,a,b,N)
     end
     sum_1 = 0;
     sum_2 = 0; 
-    for i = 1:N
+    for i = 1:N 
         x_i = (y(i + 1) + y (i)) / 2;
         sum_1 = sum_1 + u(x_i);
     end
