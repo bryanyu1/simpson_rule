@@ -1,6 +1,6 @@
 # simpson_rule 
 Investigating Simpson's rule to computationally approximate definite integrals.
- 
+
 I created a function that solved a basic definite integral; this is seen in MySimpson.m. Then, I wanted to proceed with some testing. 
  
 The first test was to approximate the integral 4/(1+x^2) between the bounds of 0 and 1; this integral converges to pi. I wanted to find how many interations it would take to get the error under 10^(-6). This investigation is included in the file: error_bounds.mlx. 
