@@ -14,4 +14,4 @@ function [x] = MySimpson(u,a,b,N)
         sum_2 = sum_2 + u(y(i + 1));
     end
     x = (h / 6) * (u(a) + 4 * sum_1 + 2 * sum_2 + u(b));
-end
+end 
