@@ -10,7 +10,7 @@ function [x] = SolveInt(a)
         y = MySimpson(f,0,p(k - 1),N);
         p(k) = p(k - 1) - ((y - a) / f(p(k - 1))); 
         tol = abs(p(k) - p(k - 1));
-        k = k + 1; 
+        k = k + 1;
     end
     x = p(k - 1);
 end
