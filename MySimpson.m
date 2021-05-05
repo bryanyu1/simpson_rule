@@ -4,7 +4,7 @@ function [x] = MySimpson(u,a,b,N)
     for i = 1:N
         y(i + 1) = a + i * h;
     end
-    sum_1 = 0; 
+    sum_1 = 0;
     sum_2 = 0;
     for i = 1:N 
         x_i = (y(i + 1) + y (i)) / 2;
