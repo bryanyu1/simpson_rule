@@ -13,4 +13,4 @@ function [x] = SolveInt(a)
         k = k + 1;
     end
     x = p(k - 1);
-end
+end 
